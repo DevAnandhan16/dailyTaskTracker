@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+	font-size: 65px;
+}
+body{
+	background-image: url('../images/image1.jpg');
+	background-size: cover;
+}
+.navlink{
+	float: center;
+	list-style: none;
+	margin-top: 30px;
+	text-align: center;
+	margin-top: 0;
+}
+.navlink li {
+	display: inline-block;
+	padding: 30px;
+	padding-top: 0;
+}
+.navlink li a {
+	color: #000000;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-family: poppins;
+	font-size: 16px;
+}
+.navlink li a:hover {
+	background: #e8b870;
+	color: #000000;
+}
